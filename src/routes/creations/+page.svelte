@@ -11,5 +11,3 @@
 </svelte:head>
 
 <Navbar />
-
-<slot />
