@@ -50,7 +50,7 @@
   onMount(loadUserChoice);
 </script>
 
-<div class="fixed top-0 left-0 flex items-center justify-center w-full z-50 pt-5 pb-5 bg-white dark:bg-[#0C0C12]" id="navbar">
+<div class="fixed top-0 left-0 flex items-center justify-center w-full z-50 pt-5 pb-5" id="navbar">
 
   <div class="bg-[#cfcfcf] dark:bg-[#14141E] cursor-pointer h-max w-max rounded-[20px] border-2 border-solid border-[#868796] hover:bg-[#23232e] hover:border-2 hover:border-[#b5b6c9]" id="theme" on:click={toggleTheme}>
     <button class="mx-[10px] my-[10px]">

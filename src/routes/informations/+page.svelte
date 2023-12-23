@@ -6,7 +6,7 @@
 <svelte:head>
 	<title>DML - Informations</title>
 	<meta name="description" content="Je m'appelle Djamel, j'ai 17 ans et je réside en région parisienne. Depuis mon plus jeune âge, ma passion pour l'informatique ne cesse de grandir. Au cours de la dernière année, j'ai particulièrement plongé dans le domaine du Développement Web et je me suis concentré sur l'apprentissage approfondi du Framework Svelte." />
-	<meta content="#121315" data-react-helmet="true" name="theme-color"/>
+	<meta content="#5865f2" data-react-helmet="true" name="theme-color"/>
 	<meta property="og:image" content="https://i.ibb.co/G74TVt9/dml.gif" />
 </svelte:head>
 
