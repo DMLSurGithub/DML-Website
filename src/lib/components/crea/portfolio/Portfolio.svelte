@@ -1,8 +1,8 @@
 <script>
-  import html from '../../../images/SVG/technod/html.svg'
-  import css from '../../../images/SVG/technod/css.svg'
-  import svelte from '../../../images/SVG/technod/svelte.svg'
-  import js from '../../../images/SVG/technod/javascript.svg'
+  import html from '../../../images/SVG/technod/htmld.svg'
+  import css from '../../../images/SVG/technod/cssd.svg'
+  import svelte from '../../../images/SVG/technod/svelted.svg'
+  import js from '../../../images/SVG/technod/javascriptd.svg'
   import open from '../../../images/SVG/crea/open.svg'
 </script>
 
