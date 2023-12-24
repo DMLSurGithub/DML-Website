@@ -32,12 +32,14 @@
       <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
       <img class="h-[25px] mr-2.5" src={darkMode ? htmld : htmlw} alt={darkMode ? 'Thème Clair' : 'Thème Sombre'}>
       <p class="text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">HTML</p>
+      </a>
     </div>
 
     <div class="group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="css-container">
       <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
       <img class="h-[25px] mr-2.5" src={darkMode ? cssd : cssw} alt={darkMode ? 'Thème Clair' : 'Thème Sombre'}>
       <p class="text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">CSS</p>
+      </a>
     </div>
 
     <div class="group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="svelte-container">
