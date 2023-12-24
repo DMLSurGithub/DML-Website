@@ -1,9 +1,34 @@
 <script>
-  import html from '../../../images/SVG/technod/htmld.svg'
-  import css from '../../../images/SVG/technod/cssd.svg'
-  import svelte from '../../../images/SVG/technod/svelted.svg'
-  import js from '../../../images/SVG/technod/javascriptd.svg'
-  import open from '../../../images/SVG/crea/open.svg'
+  import { darkMode } from '../../../store/dark.js';
+  
+  import htmld from '../../../images/SVG/technod/htmld.svg';
+  import cssd from '../../../images/SVG/technod/cssd.svg';
+  import svelted from '../../../images/SVG/technod/svelted.svg';
+  import tailwindd from '../../../images/SVG/technod/tailwindd.svg';
+  import jsd from '../../../images/SVG/technod/javascriptd.svg';
+  import nextd from '../../../images/SVG/technod/nextd.svg';
+  import pythond from '../../../images/SVG/technod/pythond.svg';
+  import sqld from '../../../images/SVG/technod/databased.svg';
+  import gitd from '../../../images/SVG/technod/gitd.svg';
+  import tsd from '../../../images/SVG/technod/typescriptd.svg';
+
+  import htmlw from '../../../images/SVG/technow/htmlw.svg';
+  import cssw from '../../../images/SVG/technow/cssw.svg';
+  import sveltew from '../../../images/SVG/technow/sveltew.svg';
+  import tailwindw from '../../../images/SVG/technow/tailwindw.svg';
+  import jsw from '../../../images/SVG/technow/javascriptw.svg';
+  import nextw from '../../../images/SVG/technow/nextw.svg';
+  import pythonw from '../../../images/SVG/technow/pythonw.svg';
+  import sqlw from '../../../images/SVG/technow/databasew.svg';
+  import gitw from '../../../images/SVG/technow/gitw.svg';
+  import tsw from '../../../images/SVG/technow/typescriptw.svg';
+  import open from '../../../images/SVG/crea/open.svg';
+
+  let darkModeValue = false;
+
+darkMode.subscribe(value => {
+  darkModeValue = value;
+});
 </script>
 
 <div class="flex flex-col items-center justify-center pt-[50px] pb-[50px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
@@ -26,22 +51,27 @@
         <div class="flex" id="techno-crea">
           <a href="https://svelte.dev/" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={svelte} alt="Svelte">
+              <img class="h-5" src={$darkMode ? svelted : sveltew} alt={$darkMode ? 'Svelte Noir' : 'Svelte Blanc'}>
+            </div>
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank">
+            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img class="h-5" src={$darkMode ? tailwindd : tailwindw} alt={$darkMode ? 'TailwindCSS Noir' : 'TailwindCSS Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={html} alt="HTML">
+              <img class="h-5" src={$darkMode ? htmld : htmlw} alt={$darkMode ? 'HTML Noir' : 'HTML Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={css} alt="CSS">
+              <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
-          <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
+          <a href="https://www.typescriptlang.org/" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={js} alt="JavaScript">
+              <img class="h-5" src={$darkMode ? tsd : tsw} alt={$darkMode ? 'TypeScript Noir' : ' TypeScript Blanc'}>
             </div>
           </a>
         </div>
@@ -64,22 +94,27 @@
         <div class="flex" id="techno-crea">
           <a href="https://svelte.dev/" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={svelte} alt="Svelte">
+              <img class="h-5" src={$darkMode ? svelted : sveltew} alt={$darkMode ? 'Svelte Noir' : 'Svelte Blanc'}>
+            </div>
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank">
+            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img class="h-5" src={$darkMode ? tailwindd : tailwindw} alt={$darkMode ? 'TailwindCSS Noir' : 'TailwindCSS Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={html} alt="HTML">
+              <img class="h-5" src={$darkMode ? htmld : htmlw} alt={$darkMode ? 'HTML Noir' : 'HTML Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={css} alt="CSS">
+              <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
-          <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
+          <a href="https://www.typescriptlang.org/" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={js} alt="JavaScript">
+              <img class="h-5" src={$darkMode ? tsd : tsw} alt={$darkMode ? 'TypeScript Noir' : ' TypeScript Blanc'}>
             </div>
           </a>
         </div>
@@ -105,12 +140,12 @@
         <div class="flex" id="techno-crea">
           <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={html} alt="HTML">
+              <img class="h-5" src={$darkMode ? htmld : htmlw} alt={$darkMode ? 'HTML Noir' : 'HTML Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
-            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={css} alt="CSS">
+            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
         </div>
@@ -133,12 +168,12 @@
         <div class="flex" id="techno-crea">
           <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
             <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={html} alt="HTML">
+              <img class="h-5" src={$darkMode ? htmld : htmlw} alt={$darkMode ? 'HTML Noir' : 'HTML Blanc'}>
             </div>
           </a>
           <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
-            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={css} alt="CSS">
+            <div class="bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
         </div>

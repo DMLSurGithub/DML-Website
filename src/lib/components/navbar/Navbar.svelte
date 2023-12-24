@@ -1,22 +1,16 @@
 <script>
   import { onMount } from 'svelte';
   import { domCookie } from "cookie-muncher";
+  import { darkMode } from '../../store/dark.js';
   import moon from '../../images/SVG/navbar/moon.svg';
   import sun from '../../images/SVG/navbar/sun.svg';
   import tradb from '../../images/SVG/navbar/tradb.svg';
   import tradw from '../../images/SVG/navbar/tradw.svg';
 
-  let darkMode = false;
   let searchQuery = '';
 
   const toggleTheme = () => {
-    darkMode = !darkMode;
-    if (darkMode) {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-    }
-    saveUserChoice(darkMode);
+    darkMode.update(value => !value);
   };
 
   /**
@@ -30,24 +24,27 @@
     domCookie.set(cookie);
   }
 
-  function loadUserChoice() {
+  onMount(() => {
     const cookie = domCookie.get("darkMode");
     if (cookie) {
       if (cookie.value === "enabled") {
-        darkMode = true;
-        document.body.classList.add('dark');
+        darkMode.set(true);
       } else {
-        darkMode = false;
-        document.body.classList.remove('dark');
+        darkMode.set(false);
       }
     } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      darkMode = true;
-      document.body.classList.add('dark');
-      saveUserChoice(true);
+      darkMode.set(true);
     }
-  }
 
-  onMount(loadUserChoice);
+    darkMode.subscribe(value => {
+      if (value) {
+        document.body.classList.add('dark');
+      } else {
+        document.body.classList.remove('dark');
+      }
+      saveUserChoice(value);
+    });
+  });
 </script>
 
 <div class="fixed top-0 left-0 flex items-center justify-center w-full z-50 pt-5 pb-5" id="navbar">
