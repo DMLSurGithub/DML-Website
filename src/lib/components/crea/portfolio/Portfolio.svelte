@@ -3,6 +3,7 @@
   import css from '../../../images/SVG/technod/css.svg'
   import svelte from '../../../images/SVG/technod/svelte.svg'
   import js from '../../../images/SVG/technod/javascript.svg'
+  import open from '../../../images/SVG/crea/open.svg'
 </script>
 
 <div class="flex flex-col items-center justify-center pt-[50px] pb-[50px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
@@ -11,8 +12,9 @@
     
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] mr-[25px] relative" id="crea-container">
       <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
       </a>          
       <div>
@@ -37,11 +39,12 @@
     </div>
 
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/Discord-Invitation" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 rounded absolute top-5 right-5" id="github-redirection">
+      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
-      </a>          
+      </a>         
       <div>
         <h1 class="text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invitation</h1>
         <p class="text-[12px] mb-[15px] font-family: 'Outfit', sans-serif dark:text-white">13/05/2023</p>
@@ -68,11 +71,12 @@
   <div class="flex flex-row mt-[25px]" id="row">
     
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] mr-[25px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/DML-Website" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 rounded absolute top-5 right-5" id="github-redirection">
+      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
-      </a>          
+      </a>         
       <div>
         <h1 class="text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Website</h1>
         <p class="text-[12px] mb-[15px] font-family: 'Outfit', sans-serif dark:text-white">18/06/2023 -> Aujourd'hui</p>
@@ -105,11 +109,12 @@
     </div>
 
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
-      <a href="https://tplm-mgc.fr/" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 rounded absolute top-5 right-5" id="github-redirection">
+      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Not Open Source
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
-      </a>          
+      </a>           
       <div>
         <h1 class="text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">TPLM Website</h1>
         <p class="text-[12px] mb-[15px] font-family: 'Outfit', sans-serif dark:text-white">26/11/2023 -> Aujourd'hui</p>

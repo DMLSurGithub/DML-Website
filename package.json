@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"cookie-muncher": "^0.4.3"
+		"cookie-muncher": "^0.4.3",
+		"svelte-clipboard": "^1.0.0"
 	}
 }

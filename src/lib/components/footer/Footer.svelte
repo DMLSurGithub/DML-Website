@@ -1,7 +1,15 @@
-<script>
+<script lang="ts">
   import pp from '../../images/IMG/pdp/pp.png'
   import discord from '../../images/SVG/reseau/discord.svg'
   import github from '../../images/SVG/reseau/github.svg'
+
+  function copyToClipboard(text: string) {
+    navigator.clipboard.writeText(text).then(function() {
+      alert('Le mot dmlsurdsc a été copié dans votre presse-papier.\nAllez vite le coller sur Discord pour ajouter DML !');
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  }
 </script>
 
 <div class="flex justify-between items-center pt-[50px] pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="footer">
@@ -22,9 +30,9 @@
   <div class="mr-[130px]" id="reseau-container">
     <h6 class="flex text-xl text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Réseaux Sociaux :</h6>
     <div class="flex">
-    <a href="https://github.com/DMLSurGithub/" target="_blank">
-      <img class="w-[30px] ml-[40px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
-    </a>
+      <button on:click={() => copyToClipboard('dmlsurdsc')}>
+        <img class="w-[30px] ml-[40px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
+      </button>      
     <a href="https://github.com/DMLSurGithub/" target="_blank">
       <img class="flex w-[30px] ml-[15px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={github} alt="Github Logo">
     </a>
