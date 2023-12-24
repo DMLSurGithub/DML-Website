@@ -1,10 +1,10 @@
 <script>
-  import "../app.css";
-  import Navbar from '../lib/components/navbar/Navbar.svelte'
-  import Footer from '../lib/components/footer/Footer.svelte'
-  import Bio from '../lib/components/qui/bio/Bio.svelte'
-  import Histoire from '../lib/components/qui/histoire/Histoire.svelte'
-  import Techno from '../lib/components/qui/techno/Techno.svelte'
+  import '../app.css';
+  import Navbar from '../lib/components/navbar/Navbar.svelte';
+  import Footer from '../lib/components/footer/Footer.svelte';
+  import Bio from '../lib/components/qui/bio/Bio.svelte';
+  import Histoire from '../lib/components/qui/histoire/Histoire.svelte';
+  import Techno from '../lib/components/qui/techno/Techno.svelte';
 </script>
 
 <svelte:head>
