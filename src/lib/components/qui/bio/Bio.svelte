@@ -12,7 +12,7 @@
 
     <div class="flex flex-col" id="bio-text">
       <h1 class="text-[50px] text-black dark:text-[#c2c4d4] mb-[30px] font-family: 'Outfit', sans-serif dark:text-white font-black"><span class="font-extrabold text-[#ff9900] dark:text-[#FFC000]">DML</span> | <span class="font-semibold text-[#4e59d8] dark:text-[#5865f2]">Développeur</span></h1>
-      <p class="text-xl text-black dark:text-[#868894] font-family: 'Outfit', sans-serif dark:text-white">Je m'appelle Djamel, j'ai 17 ans et je réside en région parisienne. Depuis mon plus jeune âge, ma passion pour l'informatique ne cesse de grandir. Au cours des dernières années, j'ai particulièrement plongé dans le domaine du Développement Web et je me suis concentré sur l'apprentissage approfondi du Framework Svelte.</p>
+      <p class="text-xl text-black dark:text-[#868894] font-family: 'Outfit', sans-serif dark:text-white">Je m'appelle Djamel, j'ai 17 ans et je réside en région parisienne. Depuis mon plus jeune âge, ma passion pour l'informatique ne cesse de grandir. Au cours des dernières années, j'ai particulièrement plongé dans le domaine du développement web et je me suis concentré sur l'apprentissage approfondi du framework Svelte.</p>
     </div>
 
   </div>

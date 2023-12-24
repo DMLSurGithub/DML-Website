@@ -58,7 +58,6 @@
     </div>
   </div>
 
-
   <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex items-center justify-between w-[350px] mx-5 my-0 px-2.5 py-[5px] rounded-[20px] border-2 border-solid border-[#aaabbb] dark:border-[#868796]" id="page">
     <a class="text-[#5e5e5e] dark:text-[#a2a4b3] text-[17px] no-underline m-2.5 hover:text-[#000000] dark:hover:text-[#ffffff] font-family: 'Outfit', sans-serif" href="/">/Qui suis-je</a>
     <a class="text-[#5e5e5e] dark:text-[#a2a4b3] text-[17px] no-underline m-2.5 hover:text-[#000000] dark:hover:text-[#ffffff] font-family: 'Outfit', sans-serif" href="/creations">/Créations</a>
