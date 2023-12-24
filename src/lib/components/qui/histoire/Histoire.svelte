@@ -4,7 +4,7 @@
   import web from '../../../images/IMG/histoire/web.png';
 </script>
 
-<div class="pt-[50px] pb-[50px] flex flex-col items-center justify-center bg-white dark:bg-[#0C0C12]" id="quest-container">
+<div class="pt-[50px] pb-[50px] flex flex-col items-center justify-center bg-[#f4f3fc] dark:bg-[#0C0C12]" id="quest-container">
 
   <div class="flex items-center justify-center flex-row mb-[60px]" id="informatique">
     <div class="flex items-center justify-center" id="image-informatique">

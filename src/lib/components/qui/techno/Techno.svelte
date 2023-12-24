@@ -10,7 +10,7 @@
   import git from '../../../images/SVG/techno/git.svg'
 </script>
 
-<div class="flex flex-col items-center justify-center pt-[50px] pb-[50px] bg-white dark:bg-[#0C0C12]" id="techno-container">
+<div class="flex flex-col items-center justify-center pt-[50px] pb-[50px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="techno-container">
 
   <h1 class="font-extrabold pb-4 text-[50px] text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="technologies">Technologies utilisées :</h1>
 

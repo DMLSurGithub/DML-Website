@@ -2,7 +2,7 @@
   import pdp from '../../../images/IMG/pdp/pdp.png';
 </script>
 
-<div class="pt-[120px] pb-[50px] bg-white dark:bg-[#0C0C12] flex justify-center items-center" id="biographie">
+<div class="pt-[120px] pb-[50px] bg-[#f4f3fc] dark:bg-[#0C0C12] flex justify-center items-center" id="biographie">
 
   <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex items-center w-[1000px] p-5 rounded-[10px]" id="bio-container">
 

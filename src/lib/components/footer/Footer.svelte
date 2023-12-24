@@ -4,7 +4,7 @@
   import github from '../../images/SVG/reseau/github.svg'
 </script>
 
-<div class="flex justify-between items-center pt-[50px] pb-[30px] bg-white dark:bg-[#0C0C12]" id="footer">
+<div class="flex justify-between items-center pt-[50px] pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="footer">
 
   <div class="ml-[130px]" id="pp-container">
     <img class="w-[120px] rounded-[30px]" src={pp} alt="PP">
