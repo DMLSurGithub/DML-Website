@@ -39,7 +39,7 @@
     </div>
 
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+      <a href="https://github.com/DMLSurGithub/Discord-Invitation" target="_blank">
         <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
@@ -71,7 +71,7 @@
   <div class="flex flex-row mt-[25px]" id="row">
     
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] mr-[25px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+      <a href="https://github.com/DMLSurGithub/DML-Website" target="_blank">
         <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
@@ -109,7 +109,7 @@
     </div>
 
     <div class="bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
+      <a href="https://tplm-mgc.fr" target="_blank">
         <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Not Open Source
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
