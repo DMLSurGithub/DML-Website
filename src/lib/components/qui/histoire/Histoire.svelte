@@ -1,7 +1,7 @@
 <script>
-  import informatique from '../../../images/IMG/dev.jpg';
-  import scolaire from '../../../images/IMG/etudes.jpg';
-  import web from '../../../images/IMG/web.png';
+  import informatique from '../../../images/IMG/histoire/dev.jpg';
+  import scolaire from '../../../images/IMG/histoire/etudes.jpg';
+  import web from '../../../images/IMG/histoire/web.png';
 </script>
 
 <div class="pt-[50px] pb-[50px] flex flex-col items-center justify-center bg-white dark:bg-[#0C0C12]" id="quest-container">
