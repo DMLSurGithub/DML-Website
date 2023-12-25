@@ -12,12 +12,12 @@
 
         <div class="mr-5" id="prenom-container">
           <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Votre prénom :</h1>
-          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] text-black dark:text-white" type="text" id="prenom" name="prenom" placeholder="Obligatoire" required />
+          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" type="text" id="prenom" name="prenom" placeholder="Obligatoire" required />
         </div>
 
         <div class="" id="nom-container">
           <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Votre nom :</h1>
-          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] text-black dark:text-white" type="text" id="nom" name="nom" placeholder="Obligatoire" required />
+          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" type="text" id="nom" name="nom" placeholder="Obligatoire" required />
         </div>
           
       </div>
@@ -26,26 +26,26 @@
 
         <div class="mr-5" id="dsc-container">
           <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Votre nom d'utilisateur discord :</h1>
-          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] text-black dark:text-white" type="text" id="discord" name="discord" placeholder="Falcultatif" />
+          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" type="text" id="discord" name="discord" placeholder="Falcultatif" />
         </div>
 
         <div class="" id="email-container">
           <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Votre e-mail :</h1>
-          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] text-black dark:text-white" type="email" id="email" name="email" placeholder="Obligatoire" required />
+          <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[470px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" type="email" id="email" name="email" placeholder="Obligatoire" required />
         </div>
 
       </div>
       
       <div class="pt-5 pb-5" id="objet-container">
         <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Objet du mail :</h1>
-        <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] rounded-xl border-[1px] text-black dark:text-white" type="text" id="objet" name="objet" placeholder="Obligatoire" required />
+        <input class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" type="text" id="objet" name="objet" placeholder="Obligatoire" required />
       </div>
       
     </div>
 
     <div class="" id="message-container">
       <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Message :</h1>
-      <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] text-black dark:text-white" id="message" name="message" placeholder="Message (obligatoire)" required></textarea>
+      <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" id="message" name="message" placeholder="Message (obligatoire)" required></textarea>
     </div>
 
     <div class="" id="piece-jointe">
