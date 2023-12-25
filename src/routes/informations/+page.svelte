@@ -1,8 +1,8 @@
 <script>
   import "../../app.css";
-  // @ts-ignore
   import Navbar from '../../lib/components/navbar/Navbar.svelte';
   import Footer from '../../lib/components/footer/Footer.svelte';
+  import Contact from '../../lib/components/infos/contact/Contact.svelte';
 </script>
 
 <svelte:head>
@@ -13,5 +13,7 @@
 </svelte:head>
 
 <Navbar />
+
+<Contact />
 
 <Footer />

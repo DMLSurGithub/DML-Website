@@ -1,6 +1,5 @@
 <script>
   import '../app.css';
-  // @ts-ignore
   import Navbar from '../lib/components/navbar/Navbar.svelte';
   import Footer from '../lib/components/footer/Footer.svelte';
   import Bio from '../lib/components/qui/bio/Bio.svelte';
