@@ -15,9 +15,10 @@
 
   <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex items-center w-[1100px] p-5 px-10 pb-8 rounded-[10px]" id="bio-container">
 
-    <div class="mr-5" id="pdp">
-      <img class="transition-colors duration-500 w-[1000px]" src={$darkMode ? webw : webd} alt={$darkMode ? 'Web clair' : 'Web sombre'}>
+    <div class="mr-5" id="web">
+      <img class="w-[1000px]" src={$darkMode ? webw : webd} alt={$darkMode ? 'Web clair' : 'Web sombre'}>
     </div>
+    
 
     <div class="pl-[25px] flex flex-col" id="bio-text">
       <h1 class="transition-colors duration-500 text-[50px] mb-[15px] font-family: 'Outfit', sans-serif dark:text-white font-black"><span class="transition-colors duration-500 font-bold text-[#ff9900] dark:text-[#FFC000]">Développement</span> <span class="transition-colors duration-500 font-bold text-[#4e59d8] dark:text-[#5865f2]">Web</span></h1>

@@ -48,12 +48,8 @@
       <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" id="message" name="message" placeholder="Message (obligatoire)" required></textarea>
     </div>
 
-    <div class="" id="piece-jointe">
-      <input type="file" id="piece-jointe" name="piece-jointe" placeholder="Pièce jointe (facultatif)" />
-    </div>
-
-    <div class="" id="button-envoyer">
-      <button type="submit" id="button-envoyer">Envoyer</button>
+    <div class="transition-colors duration-500 bg-[#e4e4eb] hover:bg-[#ffffff] dark:bg-[#1d1d2c] dark:hover:bg-[#2c2c42] w-[100px] mx-auto rounded-full pl-5 p-3 mt-8" id="button-envoyer">
+      <button class="transition-colors duration-500 text-black dark:text-white flex items" type="submit" id="button-envoyer">Envoyer</button>
     </div>
 
   </div>
