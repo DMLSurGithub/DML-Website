@@ -61,7 +61,6 @@
     <a class="transition-colors duration-500 text-[#5e5e5e] dark:text-[#a2a4b3] text-[17px] no-underline m-2.5 hover:text-[#000000] dark:hover:text-[#ffffff] font-family: 'Outfit', sans-serif" href="/informations">/Informations</a>
   </div>
  
-  <button class="mx-[10px] my-[10px]">
   <div class="transition-colors duration-500 group bg-[#d4d5e2] dark:bg-[#14141E] cursor-pointer h-max w-max rounded-[20px] border-2 border-solid border-[#aaabbb] dark:border-[#868796] hover:bg-[#bdbeca] dark:hover:bg-[#23232e] hover:border-2 hover:border-[#9697a5] dark:hover:border-[#b5b6c9]" id="langue">
     <button class="mx-[10px] my-[10px]">
       <img class="group-hover:brightness-[-180%] dark:group-hover:brightness-[180%]" src={darkMode ? tradw : tradb} alt={darkMode ? 'Thème Clair' : 'Thème Sombre'}>
