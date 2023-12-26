@@ -45,7 +45,7 @@
 
     <div class="" id="message-container">
       <h1 class="transition-colors duration-500 mb-2 text-[20px] text-black dark:text-[#c2c4d4] font-family: 'Outfit', sans-serif dark:text-white">Message :</h1>
-      <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" id="message" name="message" placeholder="Message (obligatoire)" required></textarea>
+      <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" id="message" name="message" placeholder="Obligatoire" required></textarea>
     </div>
 
     <div class="transition-colors duration-500 bg-[#e4e4eb] hover:bg-[#ffffff] dark:bg-[#1d1d2c] dark:hover:bg-[#2c2c42] w-[100px] mx-auto rounded-full pl-5 p-3 mt-8" id="button-envoyer">

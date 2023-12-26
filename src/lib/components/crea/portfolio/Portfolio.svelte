@@ -45,7 +45,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">TPLM Website</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">26/11/2023 -> Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site boutique pour la marque de vêtement TPLM créé par la MGC GVNG.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -69,9 +69,9 @@ darkMode.subscribe(value => {
               <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
-          <a href="https://www.typescriptlang.org/" target="_blank">
+          <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
             <div class="transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={$darkMode ? tsd : tsw} alt={$darkMode ? 'TypeScript Noir' : ' TypeScript Blanc'}>
+              <img class="h-5" src={$darkMode ? jsd : jsw} alt={$darkMode ? 'JavaScript Noir' : 'JavaScript Blanc'}>
             </div>
           </a>
         </div>
@@ -88,7 +88,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Website</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023 -> Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -112,9 +112,14 @@ darkMode.subscribe(value => {
               <img class="h-5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
             </div>
           </a>
+          <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
+            <div class="transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img class="h-5" src={$darkMode ? jsd : jsw} alt={$darkMode ? 'JavaScript Noir' : 'JavaScript Blanc'}>
+            </div>
+          </a>
           <a href="https://www.typescriptlang.org/" target="_blank">
             <div class="transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full border-[0.5px] border-solid border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
-              <img class="h-5" src={$darkMode ? tsd : tsw} alt={$darkMode ? 'TypeScript Noir' : ' TypeScript Blanc'}>
+              <img class="h-5" src={$darkMode ? tsd : tsw} alt={$darkMode ? 'TypeScript Noir' : 'TypeScript Blanc'}>
             </div>
           </a>
         </div>
@@ -134,7 +139,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invitation</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">13/05/2023</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un bout de code qu'on peut rajouter à son site et customiser à sa guise.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -162,7 +167,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">SecureBits</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023 -> 02/04/2023</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
