@@ -6,6 +6,7 @@
   import svelted from '../../../images/SVG/technod/svelted.svg';
   import tailwindd from '../../../images/SVG/technod/tailwindd.svg';
   import jsd from '../../../images/SVG/technod/javascriptd.svg';
+  import tsd from '../../../images/SVG/technod/typescriptd.svg';
   import nextd from '../../../images/SVG/technod/nextd.svg';
   import pythond from '../../../images/SVG/technod/pythond.svg';
   import sqld from '../../../images/SVG/technod/databased.svg';
@@ -16,6 +17,7 @@
   import sveltew from '../../../images/SVG/technow/sveltew.svg';
   import tailwindw from '../../../images/SVG/technow/tailwindw.svg';
   import jsw from '../../../images/SVG/technow/javascriptw.svg';
+  import tsw from '../../../images/SVG/technow/typescriptw.svg';
   import nextw from '../../../images/SVG/technow/nextw.svg';
   import pythonw from '../../../images/SVG/technow/pythonw.svg';
   import sqlw from '../../../images/SVG/technow/databasew.svg';
@@ -34,73 +36,91 @@ darkMode.subscribe(value => {
 
   <div class="flex flex-row" id="row">
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="html-container">
-      <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
-      <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? htmld : htmlw} alt={$darkMode ? 'HTML Noir' : 'HTML Blanc'}>
-      <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">HTML</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="html-container">
+        <img src={htmld} alt="HTML Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={htmlw} alt="HTML Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">HTML</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="css-container">
-      <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
-      <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? cssd : cssw} alt={$darkMode ? 'CSS Noir' : 'CSS Blanc'}>
-      <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">CSS</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="css-container">
+        <img src={cssd} alt="CSS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={cssw} alt="CSS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">CSS</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="svelte-container">
-      <a class="flex items-center no-underline" href="https://svelte.dev/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? svelted : sveltew} alt={$darkMode ? 'Svelte Noir' : 'Svelte Blanc'}>
-        <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Svelte</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://svelte.dev/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="svelte-container">
+        <img src={svelted} alt="Svelte Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={sveltew} alt="Svelte Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Svelte</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="tailwind-container">
-      <a class="flex items-center no-underline" href="https://tailwindcss.com/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? tailwindd : tailwindw} alt={$darkMode ? 'TailwindCSS Noir' : 'TailwindCSS Blanc'}>
-        <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">TailwindCSS</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://tailwindcss.com/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="tailwindcss-container">
+        <img src={tailwindd} alt="TailwindCSS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={tailwindw} alt="TailwindCSS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">TailwindCSS</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="js-container">
-      <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? jsd : jsw} alt={$darkMode ? 'JavaScript Noir' : 'JavaScript Blanc'}>
-        <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">JavaScript</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="js-container">
+        <img src={jsd} alt="JavaScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={jsw} alt="JavaScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">JavaScript</p>
+      </div>
+    </a>
 
   </div>
 
   
   <div class="flex flex-row" id="row">
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="next-container">
-      <a class="flex items-center no-underline" href="https://nextjs.org/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? nextd : nextw} alt={$darkMode ? 'Next.JS Noir' : 'Next.JS Blanc'}>
-        <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Next.JS</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://www.typescriptlang.org/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="ts-container">
+        <img src={tsd} alt="TypeScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={tsw} alt="TypeScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">TypeScript</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="python-container">
-      <a class="flex items-center no-underline" href="https://www.python.org/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? pythond : pythonw} alt={$darkMode ? 'Python Noir' : 'Python Blanc'}>
-        <p class="transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Python</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://nextjs.org/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="next-container">
+        <img src={nextd} alt="NextJS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={nextw} alt="NextJS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Next.JS</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="sql-container">
-      <a class="flex items-center no-underline" href="https://sql.sh/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? sqld : sqlw} alt={$darkMode ? 'SQL Noir' : 'SQL Blanc'}>
-        <p class="text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfittransition-colors duration-500 ', sans-serif">SQL</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://python.org/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="python-container">
+        <img src={pythond} alt="Python Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={pythonw} alt="Python Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Python</p>
+      </div>
+    </a>
 
-    <div class="transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="git-container">
-      <a class="flex items-center no-underline" href="https://git-scm.com/" target="_blank">
-        <img class="transition-colors duration-500 h-[25px] mr-2.5" src={$darkMode ? gitd : gitw} alt={$darkMode ? 'GIT Noir' : 'GIT Blanc'}>
-        <p class="text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-transition-colors duration-500 serif">GIT & GitHub</p>
-      </a>
-    </div>
+    <a class="flex items-center no-underline" href="https://sql.sh/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="sql-container">
+        <img src={sqld} alt="SQL Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={sqlw} alt="SQL Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">SQL</p>
+      </div>
+    </a>
+
+    <a class="flex items-center no-underline" href="https://git-scm.com/" target="_blank">
+      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="git-container">
+        <img src={gitd} alt="GIT Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
+        <img src={gitw} alt="GIT Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
+        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">GIT & GitHub</p>
+      </div>
+    </a>
+
   </div>
 
 </div>

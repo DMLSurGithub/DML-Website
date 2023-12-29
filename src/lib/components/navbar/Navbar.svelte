@@ -7,8 +7,6 @@
   import tradb from '../../images/SVG/navbar/tradb.svg';
   import tradw from '../../images/SVG/navbar/tradw.svg';
 
-  let searchQuery = '';
-
   const toggleTheme = () => {
     darkMode.update(value => !value);
   };

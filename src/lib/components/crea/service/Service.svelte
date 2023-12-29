@@ -15,8 +15,9 @@
 
   <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex items-center w-[1100px] p-5 px-10 pb-8 rounded-[10px]" id="bio-container">
 
-    <div class="mr-5" id="web">
-      <img class="w-[1000px]" src={$darkMode ? webw : webd} alt={$darkMode ? 'Web clair' : 'Web sombre'}>
+    <div class="relative mr-5 h-[200px] w-[1000px]" id="web">
+      <img src={webw} alt="Web sombre" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 w-[1000px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 w-[1000px]'}>
+      <img src={webd} alt="Web clair" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 w-[1000px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 w-[1000px]'}>
     </div>
     
 
