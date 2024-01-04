@@ -45,7 +45,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Geodia Website</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023 -> Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia.</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia, créé par la communauté Française pour la communauté.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
