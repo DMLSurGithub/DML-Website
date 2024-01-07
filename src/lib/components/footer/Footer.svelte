@@ -33,7 +33,7 @@
       on:focus={handleMouseOver} 
       on:blur={handleMouseOut}
     >
-    <img 
+    <img
       class="absolute w-[120px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-100' : 'opacity-0'}" 
       src={ppc} 
       alt="PPC" 
