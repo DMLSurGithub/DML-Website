@@ -1,5 +1,6 @@
 <script lang="ts">
   import pp from '../../images/IMG/pdp/pp.png'
+  import ppc from '../../images/IMG/pdp/pdp.png'
   import discord from '../../images/SVG/reseau/discord.svg'
   import github from '../../images/SVG/reseau/github.svg'
 
@@ -10,13 +11,38 @@
       console.error('Could not copy text: ', err);
     });
   }
+
+  let hover = false;
+  function handleMouseOver() {
+    hover = true;
+  }
+  function handleMouseOut() {
+    hover = false;
+  }
 </script>
 
 <div class="transition-colors duration-500 flex justify-between items-center pt-[50px] pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="footer">
 
-  <div class="ml-[130px]" id="pp-container">
-    <img class="w-[120px] rounded-[30px]" src={pp} alt="PP">
-  </div>
+  <div class="ml-[130px] pb-[120px] pr-[120px] relative" id="pp-container">
+    <img 
+      class="absolute w-[120px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-0' : 'opacity-100'}" 
+      src={pp} 
+      alt="PP" 
+      on:mouseover={handleMouseOver} 
+      on:mouseout={handleMouseOut}
+      on:focus={handleMouseOver} 
+      on:blur={handleMouseOut}
+    >
+    <img 
+      class="absolute w-[120px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-100' : 'opacity-0'}" 
+      src={ppc} 
+      alt="PPC" 
+      on:mouseover={handleMouseOver} 
+      on:mouseout={handleMouseOut}
+      on:focus={handleMouseOver} 
+      on:blur={handleMouseOut}
+    >
+</div>
 
   <div class="" id="center">
     <div class="description-container">

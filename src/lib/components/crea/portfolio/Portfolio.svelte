@@ -38,13 +38,13 @@ darkMode.subscribe(value => {
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 mr-[25px] rounded-[10px] relative" id="crea-container">
       <a href="https://geodia.vercel.app/" target="_blank">
         <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
-          Not Open Source
+          Voir
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
       </a>
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Geodia Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023 ➜ Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023  ➜  Aujourd'hui</p>
         <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia, créé par la communauté Française pour la communauté.</p>
       </div>
       <div class="flex justify-start items-end">
@@ -96,13 +96,13 @@ darkMode.subscribe(value => {
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 mr-[25px] rounded-[10px] relative" id="crea-container">
       <a href="https://tplm-mgc.fr" target="_blank">
         <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
-          Not Open Source
+          Voir
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
       </a>           
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">TPLM Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">26/11/2023 ➜ Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">26/11/2023  ➜  Aujourd'hui</p>
         <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site boutique pour la marque de vêtement TPLM créé par la MGC GVNG.</p>
       </div>
       <div class="flex justify-start items-end">
@@ -150,7 +150,7 @@ darkMode.subscribe(value => {
       </a>         
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023 ➜ Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
         <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
       </div>
       <div class="flex justify-start items-end">
@@ -237,7 +237,7 @@ darkMode.subscribe(value => {
       </a>          
       <div>
         <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">SecureBits</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023 ➜ 02/04/2023</p>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023  ➜  02/04/2023</p>
         <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité.</p>
       </div>
       <div class="flex justify-start items-end">
