@@ -89,21 +89,17 @@ darkMode.subscribe(value => {
       </div>
     </div>
 
-  </div>
-
-  <div class="flex flex-row mt-[25px]" id="row">
-
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 mr-[25px] rounded-[10px] relative" id="crea-container">
-      <a href="https://tplm-mgc.fr" target="_blank">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
+      <a href="https://khadra.vercel.app/" target="_blank">
         <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Voir
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
       </a>           
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">TPLM Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">26/11/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site boutique pour la marque de vêtement TPLM créé par la MGC GVNG.</p>
+        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Khadra</h1>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">14/06/2024  ➜  Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site wiki et vitrine pour l'équipe de football algérienne.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -137,21 +133,99 @@ darkMode.subscribe(value => {
               <img src={jsw} alt="JavaScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
             </div>            
           </a>
+          <a href="https://typescriptlang.com/" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={tsd} alt="TypeScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={tsw} alt="TypeScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="flex flex-row mt-[25px]" id="row">
+
+    
+
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
+      <a href="https://dml-portfolio.vercel.app/" target="_blank">
+        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+          Voir
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+        </div>
+      </a>     
+      <a href="https://github.com/DMLSurGithub/dml-website" target="_blank">
+        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+          Open Source
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+        </div>
+      </a>
+      <div>
+        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Portfolio</h1>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
+      </div>
+      <div class="flex justify-start items-end">
+        <div class="flex" id="techno-crea">
+          <a href="https://svelte.dev/" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={svelted} alt="Svelte Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={sveltew} alt="Svelte Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={tailwindd} alt="TailwindCSS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={tailwindw} alt="TailwindCSS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+          <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={htmld} alt="HTML Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={htmlw} alt="HTML Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+          <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={cssd} alt="CSS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={cssw} alt="CSS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+          <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={jsd} alt="JavaScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={jsw} alt="JavaScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
+          <a href="https://typescriptlang.com/" target="_blank">
+            <div class="relative transition-colors duration-500 bg-[#c4c6d6] dark:bg-[#0f0f18] hover:bg-[#aaacbb] dark:hover:bg-[#161624] p-[10px] rounded-full w-[42px] h-[42px] border-[0.5px] border-solid mr-2 border-[#aaacbb] dark:border-[#3a3a5a] hover:border-[#777985] dark:hover:border-[#4f4f79]">
+              <img src={tsd} alt="TypeScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5'}>
+              <img src={tsw} alt="TypeScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-5' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-5'}>
+            </div>            
+          </a>
         </div>
       </div>
     </div>
 
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
-      <a href="https://github.com/DMLSurGithub/DML-Website" target="_blank">
+      <a href="https://dml-website-old.vercel.app/" target="_blank">
+        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+          Voir
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+        </div>
+      </a>     
+      <a href="https://github.com/DMLSurGithub/dml-website-old" target="_blank">
         <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
           <img class="ml-2 mt-1 h-4" src={open} alt="Open">
         </div>
       </a>         
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
+        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Old Portfolio</h1>
+        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">24/05/2023  ➜  18/06/2023</p>
+        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un ancien site (plus mis à jour) qui présente les créations de DML et qui permet de le contacter.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -199,6 +273,12 @@ darkMode.subscribe(value => {
   <div class="flex flex-row mt-[25px]" id="row">
 
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
+      <a href="https://discord-invitation.vercel.app" target="_blank">
+        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+          Voir
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+        </div>
+      </a> 
       <a href="https://github.com/DMLSurGithub/Discord-Invitation" target="_blank">
         <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source
@@ -206,7 +286,7 @@ darkMode.subscribe(value => {
         </div>
       </a>         
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invitation</h1>
+        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invite</h1>
         <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">13/05/2023</p>
         <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un bout de code qu'on peut rajouter à son site et customiser à sa guise.</p>
       </div>
@@ -229,6 +309,12 @@ darkMode.subscribe(value => {
     </div>
 
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
+      <a href="https://securebits.vercel.app" target="_blank">
+        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+          Voir
+          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+        </div>
+      </a> 
       <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
         <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
           Open Source

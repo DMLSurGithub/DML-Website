@@ -68,34 +68,10 @@ darkMode.subscribe(value => {
       </div>
     </a>
 
-    <a class="flex items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">
-      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="js-container">
-        <img src={jsd} alt="JavaScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
-        <img src={jsw} alt="JavaScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
-        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">JavaScript</p>
-      </div>
-    </a>
-
   </div>
 
   
   <div class="flex flex-row" id="row">
-
-    <a class="flex items-center no-underline" href="https://www.typescriptlang.org/" target="_blank">
-      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="ts-container">
-        <img src={tsd} alt="TypeScript Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
-        <img src={tsw} alt="TypeScript Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
-        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">TypeScript</p>
-      </div>
-    </a>
-
-    <a class="flex items-center no-underline" href="https://nextjs.org/" target="_blank">
-      <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="next-container">
-        <img src={nextd} alt="NextJS Noir" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]'}>
-        <img src={nextw} alt="NextJS Blanc" class={$darkMode ? 'absolute transition-opacity duration-500 ease-in-out opacity-0 h-[25px]' : 'absolute transition-opacity duration-500 ease-in-out opacity-100 h-[25px]'}>
-        <p class="ml-9 transition-colors duration-500 text-xl text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Next.JS</p>
-      </div>
-    </a>
 
     <a class="flex items-center no-underline" href="https://python.org/" target="_blank">
       <div class="relative transition-colors duration-500 group flex items-center bg-[#d4d5e2] dark:bg-[#14141E] p-5 m-5 rounded-[300px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:cursor-pointer" id="python-container">
