@@ -25,7 +25,7 @@
 
   <div class="ml-[130px] pb-[120px] pr-[120px] relative" id="pp-container">
     <img 
-      class="absolute w-[120px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-0' : 'opacity-100'}" 
+      class="absolute w-[100px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-0' : 'opacity-100'}" 
       src={pp} 
       alt="PP" 
       on:mouseover={handleMouseOver} 
@@ -34,7 +34,7 @@
       on:blur={handleMouseOut}
     >
     <img
-      class="absolute w-[120px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-100' : 'opacity-0'}" 
+      class="absolute w-[100px] rounded-[30px] transition-all duration-[350ms] ease-in-out transform {hover ? '-rotate-[25deg]' : ''} {hover ? 'opacity-100' : 'opacity-0'}" 
       src={ppc} 
       alt="PPC" 
       on:mouseover={handleMouseOver} 
@@ -46,21 +46,21 @@
 
   <div class="" id="center">
     <div class="description-container">
-      <p class="transition-colors duration-500 text-center text-xl text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Je suis un jeune Développeur !<br>Je fais principalement du Frontend en utilisant le Framework Svelte.</p>
+      <p class="transition-colors duration-500 text-center text-l text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Je suis un jeune Développeur !<br>Je fais principalement du Frontend en utilisant le Framework Svelte.</p>
     </div>
     <div class="bydml-container">
-      <p class="transition-colors duration-500 text-center text-lg text-black dark:text-[#ffffff] font-family: 'Outfit', sans-serif">Fais avec ❤️ par <a class="transition-colors duration-500 text-black dark:text-[#ffffff] underline hover:text-[#5865f2] font-family: 'Outfit', sans-serif" href="https://github.com/DMLSurGithub/" target="_blank">DML</a></p>
+      <p class="transition-colors duration-500 text-center text-l text-black dark:text-[#ffffff] font-family: 'Outfit', sans-serif">Fais avec ❤️ par <a class="transition-colors duration-500 text-black dark:text-[#ffffff] underline hover:text-[#5865f2] font-family: 'Outfit', sans-serif" href="https://github.com/DMLSurGithub/" target="_blank">DML</a></p>
     </div>
   </div>
 
   <div class="mr-[130px]" id="reseau-container">
-    <h6 class="transition-colors duration-500 flex text-xl text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Réseaux Sociaux :</h6>
+    <h6 class="transition-colors duration-500 flex text-l text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Réseaux Sociaux :</h6>
     <div class="flex">
       <button on:click={() => copyToClipboard('dmlsurdsc')}>
-        <img class="transition-colors duration-500 w-[30px] ml-[40px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
+        <img class="transition-colors duration-500 w-[20px] ml-[40px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
       </button>      
     <a href="https://github.com/DMLSurGithub/" target="_blank">
-      <img class="transition-colors duration-500 flex w-[30px] ml-[15px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={github} alt="Github Logo">
+      <img class="transition-colors duration-500 flex w-[20px] ml-[15px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={github} alt="Github Logo">
     </a>
     </div>
   </div>
