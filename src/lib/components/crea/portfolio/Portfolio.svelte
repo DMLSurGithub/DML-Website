@@ -31,21 +31,21 @@ darkMode.subscribe(value => {
 });
 </script>
 
-<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[50px] pb-[50px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
+<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[40px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
 
   <div class="flex flex-row mt-[25px]" id="row">
 
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 mr-[25px] rounded-[10px] relative" id="crea-container">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] p-4 mr-5 rounded-[6px] relative" id="crea-container">
       <a href="https://geodia.vercel.app/" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Geodia Website</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia, créé par la communauté Française pour la communauté.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Geodia Website</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023  ➜  Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia, créé par la communauté Française pour la communauté.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -89,17 +89,17 @@ darkMode.subscribe(value => {
       </div>
     </div>
 
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] p-4 mr-5 rounded-[6px] relative" id="crea-container">
       <a href="https://khadra.vercel.app/" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>           
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Khadra</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">14/06/2024  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site wiki et vitrine pour l'équipe de football algérienne.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Khadra</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">14/06/2024  ➜  Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site wiki et vitrine pour l'équipe de football algérienne.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -142,30 +142,26 @@ darkMode.subscribe(value => {
         </div>
       </div>
     </div>
-
-  </div>
-
-  <div class="flex flex-row mt-[25px]" id="row">
 
     
 
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
       <a href="https://dml-portfolio.vercel.app/" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-[147px]" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>     
       <a href="https://github.com/DMLSurGithub/dml-website" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-green-700 hover:bg-green-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Open Source
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Portfolio</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Portfolio</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -209,23 +205,28 @@ darkMode.subscribe(value => {
       </div>
     </div>
 
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
+    
+  </div>
+
+  <div class="flex flex-row mt-[25px]" id="row">
+
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] p-4 mr-5 rounded-[6px] relative" id="crea-container">
       <a href="https://dml-website-old.vercel.app/" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-[147px]" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>     
       <a href="https://github.com/DMLSurGithub/dml-website-old" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-green-700 hover:bg-green-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Open Source
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>         
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Old Portfolio</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">24/05/2023  ➜  18/06/2023</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un ancien site (plus mis à jour) qui présente les créations de DML et qui permet de le contacter.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Old Portfolio</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">24/05/2023  ➜  18/06/2023</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un ancien site (plus mis à jour) qui présente les créations de DML et qui permet de le contacter.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -269,26 +270,23 @@ darkMode.subscribe(value => {
       </div>
     </div>
 
-  </div>
-  <div class="flex flex-row mt-[25px]" id="row">
-
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] mr-[25px] p-5 rounded-[10px] relative" id="crea-container">
       <a href="https://discord-invitation.vercel.app" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-[147px]" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a> 
       <a href="https://github.com/DMLSurGithub/Discord-Invitation" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-green-700 hover:bg-green-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Open Source
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>         
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invite</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">13/05/2023</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un bout de code qu'on peut rajouter à son site et customiser à sa guise.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invite</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">13/05/2023</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un bout de code qu'on peut rajouter à son site et customiser à sa guise.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -308,23 +306,23 @@ darkMode.subscribe(value => {
       </div>
     </div>
 
-    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[500px] p-5 rounded-[10px] relative" id="crea-container">
+    <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] p-4 mr-5 rounded-[6px] relative" id="crea-container">
       <a href="https://securebits.vercel.app" target="_blank">
-        <div class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 flex rounded absolute top-5 right-[160px]" id="github-redirection">
+        <div class="bg-red-700 hover:bg-red-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-[147px]" id="github-redirection">
           Voir
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a> 
       <a href="https://github.com/DMLSurGithub/SecureBits" target="_blank">
-        <div class="bg-green-700 hover:bg-green-600 text-white px-2 py-1 flex rounded absolute top-5 right-5" id="github-redirection">
+        <div class="bg-green-700 hover:bg-green-600 text-white py-[2px] px-[4px] flex rounded absolute top-4 right-4" id="github-redirection">
           Open Source
-          <img class="ml-2 mt-1 h-4" src={open} alt="Open">
+          <img class="ml-[6px] mt-[5px] h-4" src={open} alt="Open">
         </div>
       </a>          
       <div>
-        <h1 class="transition-colors duration-500 text-[30px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">SecureBits</h1>
-        <p class="transition-colors duration-500 text-[12px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023  ➜  02/04/2023</p>
-        <p class="transition-colors duration-500 text-[17px] mb-[10px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité.</p>
+        <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">SecureBits</h1>
+        <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023  ➜  02/04/2023</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
