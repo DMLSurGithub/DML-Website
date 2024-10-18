@@ -45,7 +45,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Geodia Website</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">29/11/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site pour le serveur Minecraft Bedrock Geodia, créé par la communauté Française pour la communauté.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Site pour un serveur de jeux Minecraft fictif.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -99,7 +99,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Khadra</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">14/06/2024  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site wiki et vitrine pour l'équipe de football algérienne.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Site wiki sur l'histoire football algérien.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -161,7 +161,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">DML Portfolio</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">18/06/2023  ➜  Aujourd'hui</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente les créations de DML et qui permet de le contacter.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Site portfolio de Djamel Dyne GAÏDI (DML).</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -226,7 +226,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Old Portfolio</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">24/05/2023  ➜  18/06/2023</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un ancien site (plus mis à jour) qui présente les créations de DML et qui permet de le contacter.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Ancien site portfolio de DML. [PLUS MIS À JOUR]</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -286,7 +286,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">Discord Invite</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">13/05/2023</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un bout de code qu'on peut rajouter à son site et customiser à sa guise.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Bout de code qu'on peut customiser à sa guise.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
@@ -322,7 +322,7 @@ darkMode.subscribe(value => {
       <div>
         <h1 class="transition-colors duration-500 text-[20px] mb-[0px] mt-[-10px] font-family: 'Outfit', sans-serif text-[#4e59d8] dark:text-[#5865f2] font-bold">SecureBits</h1>
         <p class="transition-colors duration-500 text-[10px] mb-[15px] font-family: 'Outfit', sans-serif text-black dark:text-white">01/04/2023  ➜  02/04/2023</p>
-        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">C'est un site qui présente la cybersécurité et qui explique la différence entre l'informatique et la cybersécurité.</p>
+        <p class="transition-colors duration-500 text-[13px] mb-[10px] w-[300px] font-family: 'Outfit', sans-serif text-black dark:text-white">Site qui présente la cybersécurité et l'informatique.</p>
       </div>
       <div class="flex justify-start items-end">
         <div class="flex" id="techno-crea">
