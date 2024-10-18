@@ -11,7 +11,7 @@
   });
 </script>
 
-<div class="transition-colors duration-500 pt-[120px] bg-[#f4f3fc] dark:bg-[#0C0C12] flex justify-center items-center" id="biographie">
+<div class="transition-colors duration-500 pt-[100px] bg-[#f4f3fc] dark:bg-[#0C0C12] flex justify-center items-center" id="biographie">
 
   <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex items-center w-[800px] p-5 rounded-[10px]" id="bio-container">
 
