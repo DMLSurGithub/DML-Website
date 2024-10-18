@@ -23,7 +23,7 @@
 
     <div class="flex flex-col" id="bio-text">
       <h1 class="transition-colors duration-500 text-[40px] mb-[10px] font-family: 'Outfit', sans-serif dark:text-white font-semibold"><span class="transition-colors duration-500 text-[#ff9900] dark:text-[#FFC000]">Développement</span> <span class="transition-colors duration-500 font-bold text-[#4e59d8] dark:text-[#5865f2]">Web</span></h1>
-      <p class="transition-colors duration-500 text-[17px] text-black dark:text-[#868894] font-family: 'Outfit', sans-serif dark:text-white">Je suis spécialisé dans le développement Web, offrant des solutions sur mesure pour répondre à vos besoins spécifiques. J’utilise principalement le framework Svelte, reconnu pour sa rapidité et son efficacité, combiné avec TailwindCSS pour un design moderne et réactif. Mon objectif est de créer des sites Web performants et esthétiquement agréables, tout en garantissant une expérience utilisateur optimale.</p>
+      <p class="transition-colors duration-500 text-[17px] text-black dark:text-[#868894] font-family: 'Outfit', sans-serif dark:text-white">Pour l'instant je suis spécialisé dans le développement Web, offrant des solutions pour répondre à vos besoins. J’utilise les framework Svelte, reconnu pour sa rapidité et son efficacité, combiné avec TailwindCSS pour un design moderne et réactif. Mon objectif est de créer des sites Web performants et esthétiquement agréables.</p>
     </div>
 
   </div>
