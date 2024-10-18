@@ -45,7 +45,7 @@
   });
 </script>
 
-<div class="fixed flex items-center justify-center w-full pt-5" id="navbar">
+<div class="fixed flex items-center justify-center w-full pt-" id="navbar">
 
   <div class="transition-all duration-500 group bg-[#d4d5e2] dark:bg-[#14141E] flex justify-center items-center cursor-pointer rounded-[20px] w-[53.5px] h-[53.5px] border-2 border-solid border-[#aaabbb] dark:border-[#868796] hover:bg-[#bdbeca] dark:hover:bg-[#23232e] hover:border-2 hover:border-[#9697a5] dark:hover:border-[#b5b6c9]" id="theme" on:click={toggleTheme} role="button" tabindex="0" on:keydown={e => {if (e.key === 'Enter') toggleTheme()}}>
     <div class="mx-[10px] my-[10px]">
