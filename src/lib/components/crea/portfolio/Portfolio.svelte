@@ -35,7 +35,7 @@ darkMode.subscribe(value => {
 
   <div class="w-full h-[2px] mb-7" style="background: linear-gradient(to right, transparent 10%, #5865f2 50%, #5865f2 50%, transparent 90%);"></div>
 
-  <h1 class="transition-all duration-500 font-extrabold pb-9 underline text-[40px] text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="technologies">Mes créations :</h1>
+  <h1 class="transition-all duration-500 font-extrabold  underline text-[40px] text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="technologies">Mes créations :</h1>
 
   <div class="flex flex-row" id="row">
 
