@@ -49,7 +49,8 @@
 
   <div class="transition-all duration-500 group bg-[#d4d5e2] dark:bg-[#14141E] flex justify-center items-center cursor-pointer rounded-[20px] w-[53.5px] h-[53.5px] border-2 border-solid border-[#aaabbb] dark:border-[#868796] hover:bg-[#bdbeca] dark:hover:bg-[#23232e] hover:border-2 hover:border-[#9697a5] dark:hover:border-[#b5b6c9]" id="theme" on:click={toggleTheme} role="button" tabindex="0" on:keydown={e => {if (e.key === 'Enter') toggleTheme()}}>
     <div class="mx-[10px] my-[10px]">
-      <img class="group-hover:brightness-[-180%] dark:group-hover:brightness-[180%] w-[25px]" src={darkMode ? sun : moon} alt={darkMode ? 'Thème Clair' : 'Thème Sombre'}>
+      <img src={sun} alt="HTML Noir" class="absolute top-[34px] left-[563px] transition-opacity duration-500 ease-in-out h-[25px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
+        <img src={moon} alt="HTML Blanc" class="absolute top-[34px] left-[564px] transition-opacity duration-500 ease-in-out h-[25px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
     </div>
   </div>
 
