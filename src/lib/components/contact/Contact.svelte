@@ -3,7 +3,7 @@
   <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] items-center w-[1000px] p-5 rounded-[10px]" id="contact-container">
 
     <div class="flex justify-center mb-5" id="contact-titre-container">
-      <h1 class="transition-colors duration-500 font-bold text-[40px] text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="contact-titre">Contactez moi :</h1>
+      <h1 class="transition-colors duration-500 font-bold text-[40px] underline text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="contact-titre">Contactez moi :</h1>
     </div>
 
     <div class="flex flex-col space-y-2.5" id="entete">

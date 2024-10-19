@@ -31,9 +31,13 @@ darkMode.subscribe(value => {
 });
 </script>
 
-<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[40px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
+<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
 
-  <div class="flex flex-row mt-[25px]" id="row">
+  <div class="w-full h-[2px] mb-7" style="background: linear-gradient(to right, transparent 10%, #5865f2 50%, #5865f2 50%, transparent 90%);"></div>
+
+  <h1 class="transition-all duration-500 font-extrabold pb-9 underline text-[40px] text-[#ff9900] dark:text-[#FFC000] font-family: 'Outfit', sans-serif" id="technologies">Mes créations :</h1>
+
+  <div class="flex flex-row" id="row">
 
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] flex flex-col justify-between w-[400px] p-4 mr-5 rounded-[6px] relative" id="crea-container">
       <a href="https://geodia.vercel.app/" target="_blank">
