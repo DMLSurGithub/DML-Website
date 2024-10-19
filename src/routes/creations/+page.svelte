@@ -3,8 +3,8 @@
   import Navbar from '../../lib/components/navbar/Navbar.svelte';
   import Footer from '../../lib/components/footer/Footer.svelte';
   import Service from '../../lib/components/crea/service/Service.svelte';
-  import Techno from '../../lib/components/crea/techno/Techno.svelte';
-  import Logi from '../../lib/components/crea/logiciel/logiciel.svelte';
+  import Techno from '../../lib/components/crea/techno/Tech.svelte';
+  import Logi from '../../lib/components/crea/logiciel/Logi.svelte';
   import Portfolio from '../../lib/components/crea/portfolio/Portfolio.svelte';
 </script>
 
