@@ -4,7 +4,7 @@
   import web from '../../../images/IMG/histoire/web.jpg';
 </script>
 
-<div class="transition-colors duration-500 pt-[50px] flex flex-col items-center justify-center bg-[#f4f3fc] dark:bg-[#0C0C12]" id="quest-container">
+<div class="transition-colors duration-500 pt-[50px] pb-[30px] flex flex-col items-center justify-center bg-[#f4f3fc] dark:bg-[#0C0C12]" id="quest-container">
 
   <div class="flex items-center justify-center flex-row mb-[60px] mr-[60px]" id="informatique">
     <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] w-[500px] rounded-[10px] flex flex-col items-center justify-center p-[20px] mx-[50px]" id="texte-informatique">

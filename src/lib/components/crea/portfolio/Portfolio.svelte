@@ -31,7 +31,7 @@ darkMode.subscribe(value => {
 });
 </script>
 
-<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
+<div class="transition-colors duration-500 flex flex-col items-center justify-center pt-[30px]  pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="portfolio">
 
   <div class="w-full h-[2px] mb-7" style="background: linear-gradient(to right, transparent 10%, #5865f2 50%, #5865f2 50%, transparent 90%);"></div>
 

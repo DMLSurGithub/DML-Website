@@ -1,4 +1,4 @@
-<div class="transition-colors duration-500 pt-[100px] bg-[#f4f3fc] dark:bg-[#0C0C12] flex justify-center items-center" id="contact">
+<div class="transition-colors duration-500 pt-[100px] pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12] flex justify-center items-center" id="contact">
 
   <div class="transition-colors duration-500 bg-[#d4d5e2] dark:bg-[#14141E] items-center w-[1000px] p-5 rounded-[10px]" id="contact-container">
 

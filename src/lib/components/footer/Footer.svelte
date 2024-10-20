@@ -21,7 +21,7 @@
   }
 </script>
 
-<div class="transition-colors duration-500 flex justify-between items-center pt-[50px] pb-[30px] bg-[#f4f3fc] dark:bg-[#0C0C12]" id="footer">
+<div class="transition-colors duration-500 flex justify-between items-center pt-[30px] pb-[10px] bg-[#edebf5] dark:bg-[#0a0a0f]" id="footer">
 
   <div class="ml-[130px] pb-[120px] pr-[120px] relative" id="pp-container">
     <img 
