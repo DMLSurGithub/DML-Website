@@ -56,11 +56,11 @@
   <div class="mr-[130px]" id="reseau-container">
     <h6 class="transition-colors duration-500 flex text-l text-black dark:text-[#ffffff] mb-2.5 font-family: 'Outfit', sans-serif">Réseaux Sociaux :</h6>
     <div class="flex">
-      <button on:click={() => copyToClipboard('dml130ris')}>
-        <img class="transition-colors duration-500 w-[20px] ml-[40px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
+      <button on:click={() => copyToClipboard('dml130ris')} class="ml-[40px]">
+        <img class="transition-colors duration-500 w-[20px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={discord} alt="Discord Logo">
       </button>      
-    <a href="https://github.com/DMLSurGithub/" target="_blank">
-      <img class="transition-colors duration-500 flex w-[20px] ml-[15px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={github} alt="Github Logo">
+    <a href="https://github.com/DMLSurGithub/" target="_blank" class="ml-[15px]">
+      <img class="transition-colors duration-500 flex w-[20px] hover:brightness-[-180%] dark:hover:brightness-[180%]" src={github} alt="Github Logo">
     </a>
     </div>
   </div>

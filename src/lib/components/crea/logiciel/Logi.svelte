@@ -20,22 +20,22 @@ darkMode.subscribe(value => {
 
   <div class="flex flex-row" id="row">
 
-    <a class="flex flex-col items-center no-underline" href="https://code.visualstudio.com/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="html-container">
+    <a class="flex flex-col items-center m-5 no-underline" href="https://code.visualstudio.com/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="html-container">
         <img src={vsc} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[50px]" />
         <p class="mt-[55px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">VS Code</p>
       </div>
     </a>          
 
-    <a class="flex flex-col items-center no-underline" href="https://www.jetbrains.com/fr-fr/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="css-container">
+    <a class="flex flex-col items-center m-5 no-underline" href="https://www.jetbrains.com/fr-fr/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="css-container">
         <img src={jb} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[50px]" />
         <p class="mt-[55px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">JetBrains</p>
       </div>
     </a>
 
-    <a class="flex flex-col items-center no-underline" href="https://www.office.com/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="svelte-container">
+    <a class="flex flex-col items-center m-5 no-underline" href="https://www.office.com/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[110px] h-[110px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="svelte-container">
         <img src={micro} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[50px]" />
         <p class="mt-[55px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Microsoft 365</p>
       </div>

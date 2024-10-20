@@ -32,32 +32,32 @@ darkMode.subscribe(value => {
 
   <div class="flex flex-row" id="row">
 
-    <a class="flex flex-col items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="html-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="html-container">
         <img src={htmld} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={htmlw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">HTML</p>
       </div>
     </a>          
 
-    <a class="flex flex-col items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="css-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="css-container">
         <img src={cssd} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={cssw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">CSS</p>
       </div>
     </a>
 
-    <a class="flex flex-col items-center no-underline" href="https://svelte.dev/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="svelte-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://svelte.dev/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="svelte-container">
         <img src={svelted} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={sveltew} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Svelte</p>
       </div>
     </a>
 
-    <a class="flex flex-col items-center no-underline" href="https://tailwindcss.com/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="tailwindcss-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://tailwindcss.com/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="tailwindcss-container">
         <img src={tailwindd} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={tailwindw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">TailwindCSS</p>
@@ -69,24 +69,24 @@ darkMode.subscribe(value => {
   
   <div class="flex flex-row" id="row">
 
-    <a class="flex flex-col items-center no-underline" href="https://python.org/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="python-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://python.org/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="python-container">
         <img src={pythond} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={pythonw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">Python</p>
       </div>
     </a>
 
-    <a class="flex flex-col items-center no-underline" href="https://sql.sh/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="sql-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://sql.sh/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="sql-container">
         <img src={sqld} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={sqlw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">SQL</p>
       </div>
     </a>
 
-    <a class="flex flex-col items-center no-underline" href="https://git-scm.com/" target="_blank">
-      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] m-5 rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="git-container">
+    <a class="flex m-5 flex-col items-center no-underline" href="https://git-scm.com/" target="_blank">
+      <div class="relative transition-all duration-300 group flex flex-col justify-center items-center bg-[#d4d5e2] dark:bg-[#14141E] w-[100px] h-[100px] rounded-[10px] hover:bg-[#c7c9d8] dark:hover:bg-[#191925] hover:scale-110 hover:cursor-pointer" id="git-container">
         <img src={gitd} alt="HTML Noir" class="absolute top-[14px] transition-opacity duration-500 ease-in-out h-[40px] {$darkMode ? 'opacity-100' : 'opacity-0'}" />
         <img src={gitw} alt="HTML Blanc" class="absolute top-[12px] transition-opacity duration-500 ease-in-out h-[43px] {$darkMode ? 'opacity-0' : 'opacity-100'}" />
         <p class="mt-[45px] transition-all duration-300 text-l text-[#5e5e5e] group-hover:text-black dark:text-[#a2a4b3] dark:group-hover:text-white no-underline font-family: 'Outfit', sans-serif">GIT</p>

@@ -48,9 +48,11 @@
       <textarea class="transition-colors duration-500 bg-[#edeef7] dark:bg-[#1d1d2c] px-2 py-1 w-[960px] h-[300px] rounded-xl border-[1px] text-[13px] border-[#7b7c83] dark:border-[#3d3d57] text-black dark:text-white" id="message" name="message" placeholder="Obligatoire" required></textarea>
     </div>
 
-    <div class="transition-colors duration-500 bg-[#e4e4eb] hover:bg-[#ffffff] dark:bg-[#1d1d2c] dark:hover:bg-[#2c2c42] w-[100px] mx-auto rounded-full pl-5 p-3 mt-4" id="button-envoyer">
-      <button class="transition-colors duration-500 text-black dark:text-white flex items" type="submit" id="button-envoyer">Envoyer</button>
+    <button class="transition-all duration-100 text-black dark:text-white flex items" type="submit" id="button-envoyer">
+    <div class="transition-all duration-500 bg-[#e4e4eb] hover:bg-[#ffffff] dark:bg-[#1d1d2c] dark:hover:bg-[#2c2c42] w-[100px] ml-[425px] rounded-full pl-3 p-3 mt-4" id="button-envoyer">
+      Envoyer
     </div>
+  </button>
 
   </div>
 
